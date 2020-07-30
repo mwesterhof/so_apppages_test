@@ -56,7 +56,7 @@ class Location(models.Model):
 
 
 class LocationPage(AppPageMixin, Page):
-    template = 'locations/locations_list.html'
+    template = 'locations/locations_page.html'
     url_config = 'locations.urls'
 
     class Meta:  # noqa

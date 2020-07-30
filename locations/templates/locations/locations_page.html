@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% load app_pages_tags %}
+
+{% block content %}
+this is the locations app page
+to see the list of locations, go <a href="{% app_page_url "location_list" %}">here</a>
+{% endblock %}
