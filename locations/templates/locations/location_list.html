@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load app_pages_tags %}
+
+{% block content %}
+{% for item in location_list %}
+{{item.name}}
+{% endfor %}
+{{ location_list }}
+This is the locations list
+{% endblock %}
